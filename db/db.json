@@ -1,25 +1,7 @@
 [
     {
         "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "asdf",
-        "text": "asdf"
-    },
-    {
-        "title": "asdf",
-        "text": "asdf",
-        "id": "248c"
-    },
-    {
-        "title": "asdf",
-        "text": "asdfasdfasd",
-        "id": "bfe2"
-    },
-    {
-        "title": "asdfasdfasdfasdf",
-        "text": "asdfasdfasdfasdf",
-        "id": "d33a"
+        "text": "Test text",
+        "id": "test"
     }
 ]
