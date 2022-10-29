@@ -1,5 +1,5 @@
 # Note Taker
-This repository contains a note taking application. Using a RESTful API, a user is able to GET, POST, and DELETE notes.
+This repository contains a note taking application. Using a RESTful API built in express, a user is able to GET, POST, and DELETE notes.
 
 This repository utilizes
 * JavaScript
