@@ -14,24 +14,21 @@ notes.post('/', (req, res) => {
         text,
         id: uuid(),
     };
-    readAndAppend(newNote, './db/db.json');
+    readAndAppend(newNote);
 
 
     const response = {
         status: 'success',
         body: newNote,
-      };
-  
+      }; 
       res.json(response);
     }
 )
 
 notes.delete('/:id', (req, res) => {
     if (req.params.id) {
-        const id = req.params.id;
-        console.log(id)
         readFromDb().then((notes) => {
-            newNotes = notes.filter(note => note.id != id)
+            newNotes = notes.filter(note => note.id != req.params.id)
             writeToDb(newNotes)
             res.json(newNotes)
         })
